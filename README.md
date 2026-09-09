@@ -1,5 +1,7 @@
 # Build Your Own Image Classifier
 
+*Nederlandse versie: [README.nl.md](README.nl.md)*
+
 A 2.5-hour in-class exercise: pick your own classes, scrape your own training
 images, and train a real image classifier with transfer learning — the same
 technique Teachable Machine uses behind its UI, except this time you can see
