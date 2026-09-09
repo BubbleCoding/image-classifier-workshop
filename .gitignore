@@ -8,3 +8,4 @@ __pycache__/
 # instructor-only, kept out of the public student repo
 INSTRUCTOR.md
 image_classifier_workshop_SOLUTION.ipynb
+instructor_backup_scrape.py

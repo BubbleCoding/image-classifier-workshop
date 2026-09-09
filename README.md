@@ -20,7 +20,7 @@ including a school Microsoft address. Do this **tonight**, not during class:
 4. Confirm it worked: open [colab.research.google.com](https://colab.research.google.com)
    and check you're signed in.
 
-## For students
+## Getting started
 
 1. Open `image_classifier_workshop.ipynb` in [Google Colab](https://colab.research.google.com)
    (File → Upload notebook, or open it directly from GitHub/GitLab if your
@@ -39,18 +39,3 @@ No installs on your own laptop — everything runs in the browser.
 **Heads up:** the image search sometimes returns fewer results than you ask
 for (it depends on how common your search term is) — getting 30-40 images
 per class instead of 100 is normal and still plenty to train on.
-
-## For instructors
-
-See `INSTRUCTOR.md` for timing, the fallback plan if live scraping is
-unreliable on the classroom network, and how to run the Step 9
-assignment and show-and-tell.
-
-## What's here
-
-```
-image_classifier_workshop.ipynb            # the student notebook (open in Colab)
-image_classifier_workshop_SOLUTION.ipynb   # instructor-only answer key, don't share
-INSTRUCTOR.md                              # timing plan, fallback, running Step 9 + show-and-tell
-instructor_backup_scrape.py                # pre-scrape a fallback dataset zip, run before class
-```
