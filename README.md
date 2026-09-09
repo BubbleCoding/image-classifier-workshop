@@ -5,13 +5,12 @@ images, and train a real image classifier with transfer learning — the same
 technique Teachable Machine uses behind its UI, except this time you can see
 every step.
 
-## Before class
+## If you don't have a Google account
 
-Colab needs a **Google Account**, but that doesn't mean a new Gmail address —
-during Google's sign-up flow there's a "use my current email address
-instead" option that registers a Google Account against any existing email,
-including a school Microsoft address. Do this **tonight**, not during class:
-5 minutes now saves everyone waiting on account creation tomorrow.
+Colab needs a **Google Account** to run anything, but that doesn't mean a
+new Gmail address — during Google's sign-up flow there's a "use my current
+email address instead" option that registers a Google Account against any
+existing email, including a school Microsoft address.
 
 1. Go to [accounts.google.com](https://accounts.google.com) → Create account.
 2. Choose "use my current email address instead" and enter your school
