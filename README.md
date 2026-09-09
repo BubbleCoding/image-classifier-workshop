@@ -1,42 +1,50 @@
-# Build Your Own Image Classifier
+# Bouw je eigen beeldclassifier
 
-*Nederlandse versie: [README.nl.md](README.nl.md)*
+*English version: [README.en.md](README.en.md)*
 
-A 2.5-hour in-class exercise: pick your own classes, scrape your own training
-images, and train a real image classifier with transfer learning — the same
-technique Teachable Machine uses behind its UI, except this time you can see
-every step.
+Een les van 2,5 uur: kies je eigen klassen, verzamel je eigen
+trainingsafbeeldingen, en train een echte beeldclassifier met transfer
+learning — dezelfde techniek die Teachable Machine achter de schermen
+gebruikt, alleen zie je deze keer elke stap.
 
-## If you don't have a Google account
+## Als je geen Google-account hebt
 
-Colab needs a **Google Account** to run anything, but that doesn't mean a
-new Gmail address — during Google's sign-up flow there's a "use my current
-email address instead" option that registers a Google Account against any
-existing email, including a school Microsoft address.
+Colab heeft een **Google-account** nodig om iets uit te voeren, maar dat
+betekent niet per se een nieuw Gmail-adres — tijdens het aanmaken van een
+Google-account is er een optie "gebruik in plaats daarvan mijn huidige
+e-mailadres", waarmee je een Google-account koppelt aan een bestaand
+e-mailadres, ook een schoolaccount via Microsoft.
 
-1. Go to [accounts.google.com](https://accounts.google.com) → Create account.
-2. Choose "use my current email address instead" and enter your school
-   email.
-3. Verify it (a code is emailed to that address) and set a password.
-4. Confirm it worked: open [colab.research.google.com](https://colab.research.google.com)
-   and check you're signed in.
+1. Ga naar [accounts.google.com](https://accounts.google.com) → Account
+   aanmaken.
+2. Kies "gebruik in plaats daarvan mijn huidige e-mailadres" en vul je
+   schoolmail in.
+3. Verifieer het (er wordt een code naar dat adres gemaild) en stel een
+   wachtwoord in.
+4. Check of het werkt: open
+   [colab.research.google.com](https://colab.research.google.com) en
+   controleer of je bent ingelogd.
 
-## Getting started
+## Aan de slag
 
-1. Open `image_classifier_workshop.ipynb` in [Google Colab](https://colab.research.google.com)
-   (File → Upload notebook, or open it directly from GitHub/GitLab if your
-   instructor shared a link).
-2. Run the cells top to bottom. Markdown cells explain what's happening and
-   why at each step — read them, don't just run and skip. A few code cells
-   have a `___` or a `TODO` comment where you need to write something before
-   that cell will run — those are on you, not typos.
-3. You'll edit exactly one thing yourself early on: the `CLASSES` dictionary
-   in Step 1, where you choose what the model learns to recognize.
-4. Step 9 is an assignment, not a read-through: you'll come up with your own
-   idea, rebuild the notebook around it, and show it to the class.
+1. Open `image_classifier_workshop_nl.ipynb` in
+   [Google Colab](https://colab.research.google.com) (Bestand → Notebook
+   uploaden, of open het direct vanaf GitHub als je instructeur een link
+   deelde).
+2. Voer de cellen van boven naar beneden uit. Markdown-cellen leggen uit wat
+   er gebeurt en waarom bij elke stap — lees ze, niet alleen klikken en
+   overslaan. Sommige codecellen hebben een `___` of een `TODO`-commentaar
+   waar je zelf iets moet invullen voordat die cel werkt — dat is expres,
+   geen typefout.
+3. Je past vroeg in het notebook precies één ding zelf aan: de
+   `CLASSES`-dictionary in Stap 1, waarin je kiest wat het model moet leren
+   herkennen.
+4. Stap 9 is een opdracht, geen leesstuk: je bedenkt je eigen idee, bouwt het
+   notebook daarvoor om, en laat het aan de klas zien.
 
-No installs on your own laptop — everything runs in the browser.
+Geen installaties op je eigen laptop nodig — alles draait in de browser.
 
-**Heads up:** the image search sometimes returns fewer results than you ask
-for (it depends on how common your search term is) — getting 30-40 images
-per class instead of 100 is normal and still plenty to train on.
+**Let op:** de afbeeldingenzoekopdracht geeft soms minder resultaten terug
+dan je vraagt (het hangt af van hoe veelvoorkomend je zoekterm is) — 30-40
+afbeeldingen per klasse in plaats van 100 is normaal en nog steeds ruim
+genoeg om op te trainen.
